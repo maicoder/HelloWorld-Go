@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch3/type_test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3/type_test/type_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch3/type_test/type_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestImplicit in ch3/type_test">
+  <component name="RunManager" selected="Go Test.TestString in ch3/type_test">
     <configuration name="TestConstant1 in ch2/constant_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch2/constant_test" />
@@ -160,27 +160,6 @@
       <pattern value="^TestConstantTry$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestExchage in ch2/fib" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch2/fib" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch2/fib" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExchage$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFibList in fib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch2/fib" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch2/fib/fib_test.go" />
-      <pattern value="^TestFibList$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestImplicit in ch3/type_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch3/type_test" />
@@ -192,23 +171,39 @@
       <pattern value="^TestImplicit$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestPoint in ch3/type_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch3/type_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch3/type_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPoint$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestString in ch3/type_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch3/type_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch3/type_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestString$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestString in ch3/type_test" />
+        <item itemvalue="Go Test.TestPoint in ch3/type_test" />
         <item itemvalue="Go Test.TestImplicit in ch3/type_test" />
         <item itemvalue="Go Test.TestConstant1 in ch2/constant_test" />
         <item itemvalue="Go Test.TestConstantTry in ch2/constant_test" />
-        <item itemvalue="Go Test.TestExchage in ch2/fib" />
-        <item itemvalue="Go Test.TestFibList in fib_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExchage_in_ch2_fib - 2019.07.30 at 22h 33m 26s.xml">
-      <configuration name="TestExchage in ch2/fib" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestExchage_in_ch2_fib - 2019.07.30 at 22h 38m 51s.xml">
-      <configuration name="TestExchage in ch2/fib" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestConstantTry_in_ch2_constant_test - 2019.07.30 at 22h 39m 06s.xml">
       <configuration name="TestConstantTry in ch2/constant_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -232,6 +227,12 @@
     </history-entry>
     <history-entry file="TestImplicit_in_ch3_type_test - 2019.07.30 at 23h 38m 39s.xml">
       <configuration name="TestImplicit in ch3/type_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestImplicit_in_ch3_type_test - 2019.07.30 at 23h 40m 06s.xml">
+      <configuration name="TestImplicit in ch3/type_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPoint_in_ch3_type_test - 2019.07.30 at 23h 44m 49s.xml">
+      <configuration name="TestPoint in ch3/type_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -296,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch3/type_test/type_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
