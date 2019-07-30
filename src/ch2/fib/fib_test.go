@@ -24,3 +24,12 @@ func TestFibList(t *testing.T)  {
 	}
 	//fmt.Println()
 }
+
+func TestExchage(t *testing.T) {
+	a := 1
+	b := 2
+	tmp := a
+	a = b
+	b = tmp
+	t.Log(a, b)
+}
