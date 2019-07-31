@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch3/type_test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3/type_test/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +15,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="399">
               <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch3/type_test/type_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="437">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch4/operator_test/operator_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/ch2/fib/fib_test.go" />
         <option value="$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go" />
         <option value="$PROJECT_DIR$/src/ch3/type_test/type_test.go" />
+        <option value="$PROJECT_DIR$/src/ch4/operator_test/operator_test.go" />
       </list>
     </option>
   </component>
@@ -73,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,20 +100,19 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch3" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch3" type="462c0819:PsiDirectoryNode" />
-              <item name="type_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4" type="462c0819:PsiDirectoryNode" />
+              <item name="operator_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +128,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -137,27 +147,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestString in ch3/type_test">
-    <configuration name="TestConstant1 in ch2/constant_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestBitClear in ch4/operator_test">
+    <configuration name="TestBitClear in ch4/operator_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch2/constant_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/operator_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch2/constant_test" />
+      <package value="ch4/operator_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestConstant1$" />
+      <pattern value="^TestBitClear$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestConstantTry in ch2/constant_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCompareArray in ch4/operator_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch2/constant_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/operator_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch2/constant_test" />
+      <package value="ch4/operator_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestConstantTry$" />
+      <pattern value="^TestCompareArray$" />
       <method v="2" />
     </configuration>
     <configuration name="TestImplicit in ch3/type_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -195,51 +205,51 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBitClear in ch4/operator_test" />
+        <item itemvalue="Go Test.TestCompareArray in ch4/operator_test" />
         <item itemvalue="Go Test.TestString in ch3/type_test" />
         <item itemvalue="Go Test.TestPoint in ch3/type_test" />
         <item itemvalue="Go Test.TestImplicit in ch3/type_test" />
-        <item itemvalue="Go Test.TestConstant1 in ch2/constant_test" />
-        <item itemvalue="Go Test.TestConstantTry in ch2/constant_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConstantTry_in_ch2_constant_test - 2019.07.30 at 22h 39m 06s.xml">
-      <configuration name="TestConstantTry in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCompareArray_in_ch4_operator_test - 2019.07.30 at 23h 56m 27s.xml">
+      <configuration name="TestCompareArray in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstantTry_in_ch2_constant_test - 2019.07.30 at 22h 39m 30s.xml">
-      <configuration name="TestConstantTry in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 14m 24s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstant1_in_ch2_constant_test - 2019.07.30 at 22h 43m 15s.xml">
-      <configuration name="TestConstant1 in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 16m 40s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstant1_in_ch2_constant_test - 2019.07.30 at 22h 43m 41s.xml">
-      <configuration name="TestConstant1 in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 34m 23s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstant1_in_ch2_constant_test - 2019.07.30 at 22h 43m 54s.xml">
-      <configuration name="TestConstant1 in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 35m 41s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstant1_in_ch2_constant_test - 2019.07.30 at 22h 44m 09s.xml">
-      <configuration name="TestConstant1 in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 01s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConstant1_in_ch2_constant_test - 2019.07.30 at 22h 44m 33s.xml">
-      <configuration name="TestConstant1 in ch2/constant_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 13s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestImplicit_in_ch3_type_test - 2019.07.30 at 23h 38m 39s.xml">
-      <configuration name="TestImplicit in ch3/type_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 32s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestImplicit_in_ch3_type_test - 2019.07.30 at 23h 40m 06s.xml">
-      <configuration name="TestImplicit in ch3/type_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 37m 00s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPoint_in_ch3_type_test - 2019.07.30 at 23h 44m 49s.xml">
-      <configuration name="TestPoint in ch3/type_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 38m 36s.xml">
+      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26099706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,15 +300,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="399">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch3/type_test/type_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="437">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch4/operator_test/operator_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
