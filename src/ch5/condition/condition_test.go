@@ -10,8 +10,8 @@ func TestIfMultiSec(t *testing.T) {
 	}
 }
 
-func TestSwitchMultiCase(t *testing.T)  {
-	for i:=0; i<5; i++ {
+func TestSwitchMultiCase(t *testing.T) {
+	for i := 0; i < 5; i++ {
 		//switch i {
 		//case 0, 2:
 		//	t.Log("Even")
@@ -23,7 +23,7 @@ func TestSwitchMultiCase(t *testing.T)  {
 		switch {
 		case i%2 == 0:
 			t.Log("Even")
-		case i%2==1:
+		case i%2 == 1:
 			t.Log("Odd")
 		default:
 			t.Log("unknown")
