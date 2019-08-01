@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5/condition/condition_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/condition/condition_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch5/condition/condition_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="442">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
         <option value="$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go" />
         <option value="$PROJECT_DIR$/src/ch4/operator_test/operator_test.go" />
         <option value="$PROJECT_DIR$/src/ch5/loop/loop_test.go" />
-        <option value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
         <option value="$PROJECT_DIR$/src/ch3/type_test/type_test.go" />
+        <option value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
       </list>
     </option>
   </component>
@@ -127,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestIfMultiSec in ch5/condition">
+  <component name="RunManager" selected="Go Test.TestSwitchMultiCase in ch5/condition">
     <configuration name="TestBitClear in ch4/operator_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch4/operator_test" />
@@ -161,15 +161,15 @@
       <pattern value="^TestIfMultiSec$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestString in ch3/type_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSwitchMultiCase in ch5/condition" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch3/type_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch5/condition" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch3/type_test" />
+      <package value="ch5/condition" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestString$" />
+      <pattern value="^TestSwitchMultiCase$" />
       <method v="2" />
     </configuration>
     <configuration name="TestWhileLoop in ch5/loop" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -185,18 +185,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSwitchMultiCase in ch5/condition" />
         <item itemvalue="Go Test.TestIfMultiSec in ch5/condition" />
         <item itemvalue="Go Test.TestWhileLoop in ch5/loop" />
         <item itemvalue="Go Test.TestBitClear in ch4/operator_test" />
         <item itemvalue="Go Test.TestCompareArray in ch4/operator_test" />
-        <item itemvalue="Go Test.TestString in ch3/type_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 34m 23s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 35m 41s.xml">
       <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -224,16 +221,20 @@
     <history-entry file="TestIfMultiSec_in_ch5_condition - 2019.07.31 at 17h 49m 10s.xml">
       <configuration name="TestIfMultiSec in ch5/condition" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestSwitchMultiCase_in_ch5_condition - 2019.08.02 at 00h 54m 42s.xml">
+      <configuration name="TestSwitchMultiCase in ch5/condition" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1406" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19134897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19134897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,8 +308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch5/condition/condition_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="442">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
           </folding>
