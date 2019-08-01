@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="" />
+    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -159,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceInit in ch6/slice_test">
+  <component name="RunManager" selected="Go Test.TestSliceShareMemory in ch6/slice_test">
     <configuration name="TestArrayInit in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
@@ -182,15 +184,15 @@
       <pattern value="^TestArrayTravel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIfMultiSec in ch5/condition" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceGrowing in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch5/condition" />
+      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch5/condition" />
+      <package value="ch6/slice_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestIfMultiSec$" />
+      <pattern value="^TestSliceGrowing$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSliceInit in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -204,40 +206,28 @@
       <pattern value="^TestSliceInit$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSwitchMultiCase in ch5/condition" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceShareMemory in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch5/condition" />
+      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch5/condition" />
+      <package value="ch6/slice_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSwitchMultiCase$" />
+      <pattern value="^TestSliceShareMemory$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSliceShareMemory in ch6/slice_test" />
+        <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
         <item itemvalue="Go Test.TestArrayTravel in ch6/array_test" />
         <item itemvalue="Go Test.TestArrayInit in ch6/array_test" />
-        <item itemvalue="Go Test.TestSwitchMultiCase in ch5/condition" />
-        <item itemvalue="Go Test.TestIfMultiSec in ch5/condition" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWhileLoop_in_ch5_loop - 2019.07.31 at 17h 44m 58s.xml">
-      <configuration name="TestWhileLoop in ch5/loop" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestIfMultiSec_in_ch5_condition - 2019.07.31 at 17h 49m 10s.xml">
-      <configuration name="TestIfMultiSec in ch5/condition" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSwitchMultiCase_in_ch5_condition - 2019.08.02 at 00h 54m 42s.xml">
-      <configuration name="TestSwitchMultiCase in ch5/condition" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSwitchMultiCase_in_ch5_condition - 2019.08.02 at 00h 56m 22s.xml">
-      <configuration name="TestSwitchMultiCase in ch5/condition" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestArrayInit_in_ch6_array_test - 2019.08.02 at 01h 03m 30s.xml">
       <configuration name="TestArrayInit in ch6/array_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -255,6 +245,18 @@
     </history-entry>
     <history-entry file="TestSliceInit_in_ch6_slice_test - 2019.08.02 at 01h 20m 24s.xml">
       <configuration name="TestSliceInit in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceInit_in_ch6_slice_test - 2019.08.02 at 01h 21m 58s.xml">
+      <configuration name="TestSliceInit in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceGrowing_in_ch6_slice_test - 2019.08.02 at 01h 24m 45s.xml">
+      <configuration name="TestSliceGrowing in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 27m 50s.xml">
+      <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 29m 26s.xml">
+      <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -357,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
         </state>
       </provider>
     </entry>

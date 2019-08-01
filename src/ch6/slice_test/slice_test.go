@@ -16,3 +16,22 @@ func TestSliceInit(t *testing.T) {
 	s2 = append(s2, 6)
 	t.Log(s2, len(s2), cap(s2))
 }
+
+func TestSliceGrowing(t *testing.T) {
+	s := []int{}
+	for i := 0; i < 10; i++ {
+		s = append(s, i)
+		t.Log(cap(s), len(s))
+	}
+}
+
+func TestSliceShareMemory(t *testing.T) {
+	year := []string{"Jan", "Feb", "May", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}
+	Q2 := year[3:6]
+	t.Log(Q2, len(Q2), cap(Q2))
+	summer := year[5:8]
+	t.Log(summer, len(summer), cap(summer))
+	summer[0] = "Unknown"
+	t.Log(Q2)
+	t.Log(year)
+}
