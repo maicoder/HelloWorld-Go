@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch5/condition/condition_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/condition/condition_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch5/condition/condition_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="309">
               <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch6/array_test/array_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -56,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/ch5/loop/loop_test.go" />
         <option value="$PROJECT_DIR$/src/ch3/type_test/type_test.go" />
         <option value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
+        <option value="$PROJECT_DIR$/src/ch6/array_test/array_test.go" />
       </list>
     </option>
   </component>
@@ -87,6 +97,26 @@
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5" type="462c0819:PsiDirectoryNode" />
+              <item name="condition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="array_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,27 +157,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSwitchMultiCase in ch5/condition">
-    <configuration name="TestBitClear in ch4/operator_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestArrayTravel in ch6/array_test">
+    <configuration name="TestArrayInit in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/operator_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch4/operator_test" />
+      <package value="ch6/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBitClear$" />
+      <pattern value="^TestArrayInit$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCompareArray in ch4/operator_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestArrayTravel in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/operator_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch4/operator_test" />
+      <package value="ch6/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCompareArray$" />
+      <pattern value="^TestArrayTravel$" />
       <method v="2" />
     </configuration>
     <configuration name="TestIfMultiSec in ch5/condition" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -185,30 +215,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestArrayTravel in ch6/array_test" />
+        <item itemvalue="Go Test.TestArrayInit in ch6/array_test" />
         <item itemvalue="Go Test.TestSwitchMultiCase in ch5/condition" />
         <item itemvalue="Go Test.TestIfMultiSec in ch5/condition" />
         <item itemvalue="Go Test.TestWhileLoop in ch5/loop" />
-        <item itemvalue="Go Test.TestBitClear in ch4/operator_test" />
-        <item itemvalue="Go Test.TestCompareArray in ch4/operator_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 35m 41s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 01s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 13s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 36m 32s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 37m 00s.xml">
-      <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestBitClear_in_ch4_operator_test - 2019.07.31 at 17h 38m 36s.xml">
       <configuration name="TestBitClear in ch4/operator_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -223,6 +238,21 @@
     </history-entry>
     <history-entry file="TestSwitchMultiCase_in_ch5_condition - 2019.08.02 at 00h 54m 42s.xml">
       <configuration name="TestSwitchMultiCase in ch5/condition" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSwitchMultiCase_in_ch5_condition - 2019.08.02 at 00h 56m 22s.xml">
+      <configuration name="TestSwitchMultiCase in ch5/condition" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArrayInit_in_ch6_array_test - 2019.08.02 at 01h 03m 30s.xml">
+      <configuration name="TestArrayInit in ch6/array_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 05m 53s.xml">
+      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 07m 11s.xml">
+      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 09m 55s.xml">
+      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -308,11 +338,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch5/condition/condition_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="309">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6/array_test/array_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
