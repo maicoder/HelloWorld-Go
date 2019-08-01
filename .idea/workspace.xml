@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -161,18 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceShareMemory in ch6/slice_test">
-    <configuration name="TestArrayInit in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch6/array_test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayInit$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestSliceCompare in ch6/slice_test">
     <configuration name="TestArrayTravel in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
@@ -182,6 +171,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestArrayTravel$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSliceCompare in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch6/slice_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSliceCompare$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSliceGrowing in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -219,21 +219,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSliceCompare in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceShareMemory in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
         <item itemvalue="Go Test.TestArrayTravel in ch6/array_test" />
-        <item itemvalue="Go Test.TestArrayInit in ch6/array_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayInit_in_ch6_array_test - 2019.08.02 at 01h 03m 30s.xml">
-      <configuration name="TestArrayInit in ch6/array_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 05m 53s.xml">
-      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 07m 11s.xml">
       <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -256,6 +250,12 @@
       <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 29m 26s.xml">
+      <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 30m 39s.xml">
+      <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 31m 15s.xml">
       <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -360,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
