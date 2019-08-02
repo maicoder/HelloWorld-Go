@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10/func/func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10/func/func_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="404">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="e#17#51#0" expanded="true" />
               </folding>
@@ -143,7 +143,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFn in ch10/func">
+  <component name="RunManager" selected="Go Test.TestDefer in ch10/func">
+    <configuration name="TestDefer in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch10/func" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch10/func" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDefer$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestFn in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch10/func" />
@@ -153,17 +164,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestFn$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestStringConv in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch9/string" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch9/string" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStringConv$" />
       <method v="2" />
     </configuration>
     <configuration name="TestStringConv in ch9/string_fun" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -177,17 +177,6 @@
       <pattern value="^TestStringConv$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStringFn in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch9/string" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch9/string" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStringFn$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestStringFn in ch9/string_fun" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch9/string_fun" />
@@ -199,26 +188,28 @@
       <pattern value="^TestStringFn$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestVarParam in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch10/func" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch10/func" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestVarParam$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDefer in ch10/func" />
+        <item itemvalue="Go Test.TestVarParam in ch10/func" />
         <item itemvalue="Go Test.TestFn in ch10/func" />
         <item itemvalue="Go Test.TestStringConv in ch9/string_fun" />
         <item itemvalue="Go Test.TestStringFn in ch9/string_fun" />
-        <item itemvalue="Go Test.TestStringConv in ch9/string" />
-        <item itemvalue="Go Test.TestStringFn in ch9/string" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestString_in_ch9_string - 2019.08.02 at 21h 20m 43s.xml">
-      <configuration name="TestString in ch9/string" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestString_in_ch9_string - 2019.08.02 at 21h 24m 43s.xml">
-      <configuration name="TestString in ch9/string" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestStringToRune_in_ch9_string - 2019.08.02 at 21h 33m 06s.xml">
-      <configuration name="TestStringToRune in ch9/string" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestString_in_ch9_string - 2019.08.02 at 21h 33m 41s.xml">
       <configuration name="TestString in ch9/string" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -239,6 +230,15 @@
     </history-entry>
     <history-entry file="TestFn_in_ch10_func - 2019.08.02 at 22h 12m 06s.xml">
       <configuration name="TestFn in ch10/func" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestVarParam_in_ch10_func - 2019.08.02 at 22h 18m 42s.xml">
+      <configuration name="TestVarParam in ch10/func" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDefer_in_ch10_func - 2019.08.02 at 22h 24m 35s.xml">
+      <configuration name="TestDefer in ch10/func" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDefer_in_ch10_func - 2019.08.02 at 22h 25m 50s.xml">
+      <configuration name="TestDefer in ch10/func" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -389,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="404">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="e#17#51#0" expanded="true" />
           </folding>
