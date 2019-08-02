@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="385">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="6" selection-end-line="40" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch7/map/map_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
         <option value="$PROJECT_DIR$/src/ch6/array_test/array_test.go" />
         <option value="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" />
+        <option value="$PROJECT_DIR$/src/ch7/map/map_test.go" />
       </list>
     </option>
   </component>
@@ -106,21 +116,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6" type="462c0819:PsiDirectoryNode" />
-              <item name="array_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6" type="462c0819:PsiDirectoryNode" />
-              <item name="slice_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,16 +164,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceCompare in ch6/slice_test">
-    <configuration name="TestArrayTravel in ch6/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestTraveMap in ch7/map">
+    <configuration name="TestAccessNotExistingKey in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch7/map" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch6/array_test" />
+      <package value="ch7/map" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayTravel$" />
+      <pattern value="^TestAccessNotExistingKey$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInitMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch7/map" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch7/map" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestInitMap$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSliceCompare in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -184,28 +198,6 @@
       <pattern value="^TestSliceCompare$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceGrowing in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch6/slice_test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSliceGrowing$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSliceInit in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch6/slice_test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSliceInit$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSliceShareMemory in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
@@ -217,32 +209,28 @@
       <pattern value="^TestSliceShareMemory$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestTraveMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch7/map" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch7/map" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTraveMap$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTraveMap in ch7/map" />
+        <item itemvalue="Go Test.TestAccessNotExistingKey in ch7/map" />
+        <item itemvalue="Go Test.TestInitMap in ch7/map" />
         <item itemvalue="Go Test.TestSliceCompare in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceShareMemory in ch6/slice_test" />
-        <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
-        <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
-        <item itemvalue="Go Test.TestArrayTravel in ch6/array_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 07m 11s.xml">
-      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 09m 55s.xml">
-      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayTravel_in_ch6_array_test - 2019.08.02 at 01h 10m 52s.xml">
-      <configuration name="TestArrayTravel in ch6/array_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSliceInit_in_ch6_slice_test - 2019.08.02 at 01h 20m 24s.xml">
-      <configuration name="TestSliceInit in ch6/slice_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSliceInit_in_ch6_slice_test - 2019.08.02 at 01h 21m 58s.xml">
-      <configuration name="TestSliceInit in ch6/slice_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSliceGrowing_in_ch6_slice_test - 2019.08.02 at 01h 24m 45s.xml">
       <configuration name="TestSliceGrowing in ch6/slice_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -257,6 +245,21 @@
     </history-entry>
     <history-entry file="TestSliceShareMemory_in_ch6_slice_test - 2019.08.02 at 01h 31m 15s.xml">
       <configuration name="TestSliceShareMemory in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceCompare_in_ch6_slice_test - 2019.08.02 at 01h 34m 24s.xml">
+      <configuration name="TestSliceCompare in ch6/slice_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInitMap_in_ch7_map - 2019.08.02 at 01h 44m 01s.xml">
+      <configuration name="TestInitMap in ch7/map" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAccessNotExistingKey_in_ch7_map - 2019.08.02 at 12h 40m 52s.xml">
+      <configuration name="TestAccessNotExistingKey in ch7/map" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAccessNotExistingKey_in_ch7_map - 2019.08.02 at 12h 45m 42s.xml">
+      <configuration name="TestAccessNotExistingKey in ch7/map" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAccessNotExistingKey_in_ch7_map - 2019.08.02 at 12h 46m 12s.xml">
+      <configuration name="TestAccessNotExistingKey in ch7/map" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -359,8 +362,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="385">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="6" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.4/libexec/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="648" column="17" selection-start-line="648" selection-start-column="17" selection-end-line="648" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch7/map/map_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
