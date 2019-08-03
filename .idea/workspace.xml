@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch10/func/func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10/func/func_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +13,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="950">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#17#51#0" expanded="true" />
+                <element signature="e#15#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/ch9/string/string_fun_test.go" />
         <option value="$PROJECT_DIR$/src/ch9/string_fun/string_fun_test.go" />
         <option value="$PROJECT_DIR$/src/ch10/func/func_test.go" />
+        <option value="$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go" />
       </list>
     </option>
   </component>
@@ -95,14 +106,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
+              <item name="ch11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
-              <item name="func" type="462c0819:PsiDirectoryNode" />
+              <item name="ch11" type="462c0819:PsiDirectoryNode" />
+              <item name="encapsulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +154,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestDefer in ch10/func">
+  <component name="RunManager" selected="Go Test.TestStructOperations in ch11/encapsulation">
+    <configuration name="TestCreateEmployeeObj in ch11/encapsulation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch11/encapsulation" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch11/encapsulation" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCreateEmployeeObj$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestDefer in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch10/func" />
@@ -166,26 +188,15 @@
       <pattern value="^TestFn$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStringConv in ch9/string_fun" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStructOperations in ch11/encapsulation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch9/string_fun" />
+      <working_directory value="$PROJECT_DIR$/src/ch11/encapsulation" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch9/string_fun" />
+      <package value="ch11/encapsulation" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStringConv$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestStringFn in ch9/string_fun" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch9/string_fun" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch9/string_fun" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStringFn$" />
+      <pattern value="^TestStructOperations$" />
       <method v="2" />
     </configuration>
     <configuration name="TestVarParam in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -201,21 +212,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStructOperations in ch11/encapsulation" />
+        <item itemvalue="Go Test.TestCreateEmployeeObj in ch11/encapsulation" />
         <item itemvalue="Go Test.TestDefer in ch10/func" />
         <item itemvalue="Go Test.TestVarParam in ch10/func" />
         <item itemvalue="Go Test.TestFn in ch10/func" />
-        <item itemvalue="Go Test.TestStringConv in ch9/string_fun" />
-        <item itemvalue="Go Test.TestStringFn in ch9/string_fun" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestString_in_ch9_string - 2019.08.02 at 21h 33m 41s.xml">
-      <configuration name="TestString in ch9/string" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestStringToRune_in_ch9_string - 2019.08.02 at 21h 34m 02s.xml">
-      <configuration name="TestStringToRune in ch9/string" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestStringFn_in_ch9_string_fun - 2019.08.02 at 21h 49m 55s.xml">
       <configuration name="TestStringFn in ch9/string_fun" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -240,12 +245,18 @@
     <history-entry file="TestDefer_in_ch10_func - 2019.08.02 at 22h 25m 50s.xml">
       <configuration name="TestDefer in ch10/func" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestCreateEmployeeObj_in_ch11_encapsulation - 2019.08.03 at 21h 08m 26s.xml">
+      <configuration name="TestCreateEmployeeObj in ch11/encapsulation" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStructOperations_in_ch11_encapsulation - 2019.08.03 at 21h 18m 35s.xml">
+      <configuration name="TestStructOperations in ch11/encapsulation" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19721408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20014663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,10 +400,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="950">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.4/libexec/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#17#51#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
