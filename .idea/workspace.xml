@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12/extension/extension_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#23#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch12/extension/extension_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="e#19#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go" />
         <option value="$PROJECT_DIR$/src/ch11/interface/interface_test.go" />
         <option value="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" />
+        <option value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
       </list>
     </option>
   </component>
@@ -129,21 +142,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch11" type="462c0819:PsiDirectoryNode" />
+              <item name="ch12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch11" type="462c0819:PsiDirectoryNode" />
-              <item name="customer_type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch11" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="ch12" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFn in ch11/customer_type">
+  <component name="RunManager" selected="Go Test.TestDog in ch12/extension">
     <configuration name="TestClient in ch11/interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch11/interface" />
@@ -207,15 +213,15 @@
       <pattern value="^TestCreateEmployeeObj$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDefer in ch10/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDog in ch12/extension" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch10/func" />
+      <working_directory value="$PROJECT_DIR$/src/ch12/extension" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch10/func" />
+      <package value="ch12/extension" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDefer$" />
+      <pattern value="^TestDog$" />
       <method v="2" />
     </configuration>
     <configuration name="TestFn in ch11/customer_type" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -242,30 +248,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDog in ch12/extension" />
         <item itemvalue="Go Test.TestFn in ch11/customer_type" />
         <item itemvalue="Go Test.TestClient in ch11/interface" />
         <item itemvalue="Go Test.TestStructOperations in ch11/encapsulation" />
         <item itemvalue="Go Test.TestCreateEmployeeObj in ch11/encapsulation" />
-        <item itemvalue="Go Test.TestDefer in ch10/func" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFn_in_ch10_func - 2019.08.02 at 22h 12m 06s.xml">
-      <configuration name="TestFn in ch10/func" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestVarParam_in_ch10_func - 2019.08.02 at 22h 18m 42s.xml">
-      <configuration name="TestVarParam in ch10/func" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDefer_in_ch10_func - 2019.08.02 at 22h 24m 35s.xml">
-      <configuration name="TestDefer in ch10/func" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDefer_in_ch10_func - 2019.08.02 at 22h 25m 50s.xml">
-      <configuration name="TestDefer in ch10/func" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestCreateEmployeeObj_in_ch11_encapsulation - 2019.08.03 at 21h 08m 26s.xml">
-      <configuration name="TestCreateEmployeeObj in ch11/encapsulation" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestStructOperations_in_ch11_encapsulation - 2019.08.03 at 21h 18m 35s.xml">
       <configuration name="TestStructOperations in ch11/encapsulation" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -281,17 +272,32 @@
     <history-entry file="TestClient_in_ch11_interface - 2019.08.03 at 21h 42m 57s.xml">
       <configuration name="TestClient in ch11/interface" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestFn_in_ch11_customer_type - 2019.08.03 at 22h 05m 52s.xml">
+      <configuration name="TestFn in ch11/customer_type" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 09h 59m 52s.xml">
+      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 02m 38s.xml">
+      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 04m 58s.xml">
+      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 07m 12s.xml">
+      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20014663" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20014663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,9 +468,19 @@
     <entry file="file://$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#23#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch12/extension/extension_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
