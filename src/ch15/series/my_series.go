@@ -1,5 +1,11 @@
 package series
 
+import "fmt"
+
+func init() {
+	fmt.Println("init1 ")
+}
+
 func Squre(n int) int {
 	return n * n
 }

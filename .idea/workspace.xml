@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="" />
+    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ch15/series/my_series.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch15/series/my_series.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="57">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#16#52#0" expanded="true" />
               </folding>
@@ -237,9 +239,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 23m 17s.xml">
-      <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 26m 06s.xml">
       <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -265,6 +264,9 @@
       <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 53m 10s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 56m 10s.xml">
       <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -491,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#16#52#0" expanded="true" />
           </folding>
@@ -501,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
