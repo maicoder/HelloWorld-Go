@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,13 +73,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch14/error/err_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="366">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#18#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#23#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
         <option value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
         <option value="$PROJECT_DIR$/src/ch14/error/err_test.go" />
+        <option value="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" />
       </list>
     </option>
   </component>
@@ -168,6 +182,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch14" type="462c0819:PsiDirectoryNode" />
               <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch14" type="462c0819:PsiDirectoryNode" />
+              <item name="panic_recover" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,18 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGetFibonacci in ch14/error">
-    <configuration name="TestClient in ch11/interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch11/interface" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch11/interface" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestClient$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestPanicVxExit in ch14/panic_recover">
     <configuration name="TestDog in ch12/extension" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch12/extension" />
@@ -265,26 +275,28 @@
       <pattern value="^TestGetFibonacci$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestPanicVxExit in ch14/panic_recover" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch14/panic_recover" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch14/panic_recover" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPanicVxExit$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPanicVxExit in ch14/panic_recover" />
         <item itemvalue="Go Test.TestGetFibonacci in ch14/error" />
         <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
         <item itemvalue="Go Test.TestDog in ch12/extension" />
         <item itemvalue="Go Test.TestFn in ch11/customer_type" />
-        <item itemvalue="Go Test.TestClient in ch11/interface" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 02m 38s.xml">
-      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 04m 58s.xml">
-      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDog_in_ch12_extension - 2019.08.04 at 10h 07m 12s.xml">
-      <configuration name="TestDog in ch12/extension" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestEmptyInterfaceAssertion_in_ch13_empty_interface - 2019.08.04 at 23h 25m 23s.xml">
       <configuration name="TestEmptyInterfaceAssertion in ch13/empty_interface" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -306,6 +318,15 @@
     <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 50m 54s.xml">
       <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 12h 34m 59s.xml">
+      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 23m 17s.xml">
+      <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 26m 06s.xml">
+      <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1407" height="877" extended-state="6" />
@@ -316,7 +337,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,10 +531,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch14/error/err_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="366">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#18#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
