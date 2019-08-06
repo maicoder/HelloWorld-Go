@@ -8,4 +8,5 @@ import (
 func TestPackage(t *testing.T) {
 
 	t.Log(series.GetFibonacciSerie(5))
+	t.Log(series.Squre(2))
 }

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch15/client/package_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch15/series/my_series.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -85,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
         <option value="$PROJECT_DIR$/src/ch14/error/err_test.go" />
         <option value="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" />
-        <option value="$PROJECT_DIR$/src/ch15/series/my_series.go" />
         <option value="$PROJECT_DIR$/src/ch15/client/package_test.go" />
+        <option value="$PROJECT_DIR$/src/ch15/series/my_series.go" />
       </list>
     </option>
   </component>
@@ -241,12 +237,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 50m 54s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 12h 34m 59s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 23m 17s.xml">
       <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -269,6 +259,12 @@
       <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 49m 52s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 50m 57s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 53m 10s.xml">
       <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -493,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -507,6 +496,13 @@
           <folding>
             <element signature="e#16#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

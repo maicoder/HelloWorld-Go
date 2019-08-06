@@ -1,6 +1,8 @@
 package series
 
-
+func Squre(n int) int {
+	return n * n
+}
 
 func GetFibonacciSerie(n int) []int {
 	ret := []int{1, 1}
