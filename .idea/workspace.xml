@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,86 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch11/interface/interface_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch12/extension/extension_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#19#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="e#25#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch14/error/err_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#18#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="e#23#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="26">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -297,9 +221,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEmptyInterfaceAssertion_in_ch13_empty_interface - 2019.08.04 at 23h 25m 23s.xml">
-      <configuration name="TestEmptyInterfaceAssertion in ch13/empty_interface" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestEmptyInterfaceAssertion_in_ch13_empty_interface - 2019.08.04 at 23h 27m 48s.xml">
       <configuration name="TestEmptyInterfaceAssertion in ch13/empty_interface" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -325,6 +246,9 @@
       <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 26m 06s.xml">
+      <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 29m 09s.xml">
       <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -511,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch12/extension/extension_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="261">
           <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="e#19#47#0" expanded="true" />
@@ -521,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="214">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#25#53#0" expanded="true" />
@@ -541,11 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#23#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="26">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
