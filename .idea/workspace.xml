@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15/client/package_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15/series/my_series.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +12,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HelloWorld-Go" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="133">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#16#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +85,8 @@
         <option value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
         <option value="$PROJECT_DIR$/src/ch14/error/err_test.go" />
         <option value="$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go" />
+        <option value="$PROJECT_DIR$/src/ch15/series/my_series.go" />
+        <option value="$PROJECT_DIR$/src/ch15/client/package_test.go" />
       </list>
     </option>
   </component>
@@ -98,21 +117,21 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch14" type="462c0819:PsiDirectoryNode" />
+              <item name="ch15" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch14" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="ch15" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch14" type="462c0819:PsiDirectoryNode" />
-              <item name="panic_recover" type="462c0819:PsiDirectoryNode" />
+              <item name="ch15" type="462c0819:PsiDirectoryNode" />
+              <item name="series" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,6 +153,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -154,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestPanicVxExit in ch14/panic_recover">
+  <component name="RunManager" selected="Go Test.TestPackage in ch15/client">
     <configuration name="TestDog in ch12/extension" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch12/extension" />
@@ -177,17 +197,6 @@
       <pattern value="^TestEmptyInterfaceAssertion$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFn in ch11/customer_type" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch11/customer_type" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch11/customer_type" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFn$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestGetFibonacci in ch14/error" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch14/error" />
@@ -197,6 +206,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestGetFibonacci$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPackage in ch15/client" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch15/client" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch15/client" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPackage$" />
       <method v="2" />
     </configuration>
     <configuration name="TestPanicVxExit in ch14/panic_recover" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -212,30 +232,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPackage in ch15/client" />
         <item itemvalue="Go Test.TestPanicVxExit in ch14/panic_recover" />
         <item itemvalue="Go Test.TestGetFibonacci in ch14/error" />
         <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
         <item itemvalue="Go Test.TestDog in ch12/extension" />
-        <item itemvalue="Go Test.TestFn in ch11/customer_type" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEmptyInterfaceAssertion_in_ch13_empty_interface - 2019.08.04 at 23h 27m 48s.xml">
-      <configuration name="TestEmptyInterfaceAssertion in ch13/empty_interface" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 34m 49s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 47m 41s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 48m 14s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 50m 40s.xml">
-      <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestGetFibonacci_in_ch14_error - 2019.08.05 at 00h 50m 54s.xml">
       <configuration name="TestGetFibonacci in ch14/error" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -251,14 +256,29 @@
     <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 29m 09s.xml">
       <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestPanicVxExit_in_ch14_panic_recover - 2019.08.06 at 23h 37m 24s.xml">
+      <configuration name="TestPanicVxExit in ch14/panic_recover" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 47m 33s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 47m 53s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 48m 40s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 49m 52s.xml">
+      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1407" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2029304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.2029304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50190115" side_tool="true" weight="0.2029304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
@@ -269,7 +289,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,8 +485,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch14/panic_recover/panic_recover_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#16#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
