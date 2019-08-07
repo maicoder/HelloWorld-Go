@@ -6,6 +6,10 @@ func init() {
 	fmt.Println("init1 ")
 }
 
+func init() {
+	fmt.Println("init2")
+}
+
 func Squre(n int) int {
 	return n * n
 }
