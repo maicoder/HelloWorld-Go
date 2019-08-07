@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch16/grouine/groutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch16/grouine/groutine_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="e#19#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +93,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/ch15/remote_package/glide.yaml" />
         <option value="$PROJECT_DIR$/src/ch16/grouine/groutine_test.go" />
+        <option value="$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go" />
       </list>
     </option>
   </component>
@@ -112,14 +125,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch16" type="462c0819:PsiDirectoryNode" />
+              <item name="ch17" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch16" type="462c0819:PsiDirectoryNode" />
-              <item name="grouine" type="462c0819:PsiDirectoryNode" />
+              <item name="ch17" type="462c0819:PsiDirectoryNode" />
+              <item name="share_mem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,15 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGroutine in ch16/grouine">
-    <configuration name="go build my_series.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/ch15/series/my_series.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestCounterWaitGroup in ch17/share_mem">
     <configuration name="TestConcurrentMap in ch15/remote_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch15/remote_package" />
@@ -180,6 +185,39 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestConcurrentMap$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounter in ch17/share_mem" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch17/share_mem" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch17/share_mem" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounter$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounterThreadSafe in ch17/share_mem" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch17/share_mem" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch17/share_mem" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounterThreadSafe$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounterWaitGroup in ch17/share_mem" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch17/share_mem" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch17/share_mem" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounterWaitGroup$" />
       <method v="2" />
     </configuration>
     <configuration name="TestGroutine in ch16/grouine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -193,45 +231,17 @@
       <pattern value="^TestGroutine$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPackage in ch15/client" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch15/client" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch15/client" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPackage$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestPanicVxExit in ch14/panic_recover" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch14/panic_recover" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch14/panic_recover" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPanicVxExit$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCounterWaitGroup in ch17/share_mem" />
+        <item itemvalue="Go Test.TestCounterThreadSafe in ch17/share_mem" />
+        <item itemvalue="Go Test.TestCounter in ch17/share_mem" />
         <item itemvalue="Go Test.TestGroutine in ch16/grouine" />
         <item itemvalue="Go Test.TestConcurrentMap in ch15/remote_package" />
-        <item itemvalue="Go Test.TestPackage in ch15/client" />
-        <item itemvalue="Go Build.go build my_series.go" />
-        <item itemvalue="Go Test.TestPanicVxExit in ch14/panic_recover" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 47m 53s.xml">
-      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 48m 40s.xml">
-      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestPackage_in_ch15_client - 2019.08.06 at 23h 49m 52s.xml">
       <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -255,6 +265,12 @@
     </history-entry>
     <history-entry file="TestGroutine_in_ch16_grouine - 2019.08.07 at 10h 47m 14s.xml">
       <configuration name="TestGroutine in ch16/grouine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCounter_in_ch17_share_mem - 2019.08.07 at 10h 55m 32s.xml">
+      <configuration name="TestCounter in ch17/share_mem" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCounterThreadSafe_in_ch17_share_mem - 2019.08.07 at 11h 01m 09s.xml">
+      <configuration name="TestCounterThreadSafe in ch17/share_mem" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -528,6 +544,16 @@
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="e#19#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
