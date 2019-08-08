@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch21/singleton/once_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,13 +88,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#27#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch21/singleton/once_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="e#19#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
         <option value="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" />
         <option value="$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go" />
+        <option value="$PROJECT_DIR$/src/ch21/singleton/once_test.go" />
       </list>
     </option>
   </component>
@@ -190,27 +203,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20_1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20_1" type="462c0819:PsiDirectoryNode" />
-              <item name="cancel_by_close" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20_2" type="462c0819:PsiDirectoryNode" />
-              <item name="cancel_by_context" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,18 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestCancel in ch20_2/cancel_by_context">
-    <configuration name="TestAsyncService in ch18/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch18/csp" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch18/csp" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAsyncService$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.once_test.go">
     <configuration name="TestCancel in ch20_1/cancel_by_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch20_1/cancel_by_close" />
@@ -288,15 +277,15 @@
       <pattern value="^TestCancel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCloseChannel in ch20/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetSingletonObj in ch21/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch20/channel_close" />
+      <working_directory value="$PROJECT_DIR$/src/ch21/singleton" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch20/channel_close" />
+      <package value="ch21/singleton" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCloseChannel$" />
+      <pattern value="^TestGetSingletonObj$" />
       <method v="2" />
     </configuration>
     <configuration name="channel_close_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -308,20 +297,26 @@
       <filePath value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="once_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch21/singleton" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch21/singleton/once_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.once_test.go" />
+        <item itemvalue="Go Test.TestGetSingletonObj in ch21/singleton" />
         <item itemvalue="Go Test.TestCancel in ch20_2/cancel_by_context" />
         <item itemvalue="Go Test.TestCancel in ch20_1/cancel_by_close" />
         <item itemvalue="Go Test.channel_close_test.go" />
-        <item itemvalue="Go Test.TestCloseChannel in ch20/channel_close" />
-        <item itemvalue="Go Test.TestAsyncService in ch18/csp" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.08.08 at 09h 08m 36s.xml">
-      <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.08.08 at 09h 14m 42s.xml">
       <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -348,6 +343,9 @@
     </history-entry>
     <history-entry file="TestCancel_in_ch20_1_cancel_by_close - 2019.08.08 at 09h 43m 32s.xml">
       <configuration name="TestCancel in ch20_1/cancel_by_close" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCancel_in_ch20_2_cancel_by_context - 2019.08.08 at 18h 31m 16s.xml">
+      <configuration name="TestCancel in ch20_2/cancel_by_context" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -677,10 +675,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="138">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#27#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch21/singleton/once_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#19#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
