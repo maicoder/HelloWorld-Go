@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch19/select/select_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch18/csp/async_service_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="19">
+              <caret line="6" column="1" selection-end-line="42" />
               <folding>
                 <element signature="e#13#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch19/select/select_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding>
+                <element signature="e#13#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/ch16/grouine/groutine_test.go" />
         <option value="$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go" />
         <option value="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" />
+        <option value="$PROJECT_DIR$/src/ch19/select/select_test.go" />
       </list>
     </option>
   </component>
@@ -138,14 +151,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch18" type="462c0819:PsiDirectoryNode" />
+              <item name="ch19" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch18" type="462c0819:PsiDirectoryNode" />
-              <item name="csp" type="462c0819:PsiDirectoryNode" />
+              <item name="ch19" type="462c0819:PsiDirectoryNode" />
+              <item name="select" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,12 +269,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPackage_in_ch15_client - 2019.08.07 at 00h 00m 13s.xml">
-      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_ch15_client - 2019.08.07 at 00h 00m 58s.xml">
-      <configuration name="TestPackage in ch15/client" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestConcurrentMap_in_ch15_remote_package - 2019.08.07 at 00h 16m 41s.xml">
       <configuration name="TestConcurrentMap in ch15/remote_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -286,17 +293,23 @@
     <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 49m 29s.xml">
       <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 53m 26s.xml">
+      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 53m 59s.xml">
+      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1407" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.2029304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.2029304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50190115" side_tool="true" weight="0.2029304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch16/grouine/groutine_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#22#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -574,10 +577,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch18/csp/async_service_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="19">
+          <caret line="6" column="1" selection-end-line="42" />
           <folding>
             <element signature="e#13#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16/grouine/groutine_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch19/select/select_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="e#13#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
