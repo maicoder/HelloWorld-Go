@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,13 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#23#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#25#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" />
         <option value="$PROJECT_DIR$/src/ch19/select/select_test.go" />
         <option value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
+        <option value="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" />
       </list>
     </option>
   </component>
@@ -164,14 +177,14 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20" type="462c0819:PsiDirectoryNode" />
+              <item name="ch20_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20" type="462c0819:PsiDirectoryNode" />
-              <item name="channel_close" type="462c0819:PsiDirectoryNode" />
+              <item name="ch20_1" type="462c0819:PsiDirectoryNode" />
+              <item name="cancel_by_close" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.channel_close_test.go">
+  <component name="RunManager" selected="Go Test.TestCancel in ch20_1/cancel_by_close">
     <configuration name="TestAsyncService in ch18/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch18/csp" />
@@ -227,6 +240,17 @@
       <pattern value="^TestAsyncService$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCancel in ch20_1/cancel_by_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch20_1/cancel_by_close" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch20_1/cancel_by_close" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCancel$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCloseChannel in ch20/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch20/channel_close" />
@@ -236,17 +260,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestCloseChannel$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCounterWaitGroup in ch17/share_mem" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch17/share_mem" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch17/share_mem" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCounterWaitGroup$" />
       <method v="2" />
     </configuration>
     <configuration name="TestService in ch18/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -271,24 +284,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCancel in ch20_1/cancel_by_close" />
         <item itemvalue="Go Test.channel_close_test.go" />
         <item itemvalue="Go Test.TestCloseChannel in ch20/channel_close" />
         <item itemvalue="Go Test.TestAsyncService in ch18/csp" />
         <item itemvalue="Go Test.TestService in ch18/csp" />
-        <item itemvalue="Go Test.TestCounterWaitGroup in ch17/share_mem" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestService_in_ch18_csp - 2019.08.07 at 16h 47m 08s.xml">
-      <configuration name="TestService in ch18/csp" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 49m 29s.xml">
-      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 53m 26s.xml">
-      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestAsyncService_in_ch18_csp - 2019.08.07 at 17h 53m 59s.xml">
       <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -309,6 +313,15 @@
     </history-entry>
     <history-entry file="channel_close_test_go - 2019.08.08 at 09h 19m 09s.xml">
       <configuration name="channel_close_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="channel_close_test_go - 2019.08.08 at 09h 20m 50s.xml">
+      <configuration name="channel_close_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCancel_in_ch20_1_cancel_by_close - 2019.08.08 at 09h 36m 35s.xml">
+      <configuration name="TestCancel in ch20_1/cancel_by_close" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCancel_in_ch20_1_cancel_by_close - 2019.08.08 at 09h 38m 53s.xml">
+      <configuration name="TestCancel in ch20_1/cancel_by_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -618,10 +631,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="e#23#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
