@@ -28,7 +28,6 @@ func FirstResponse() string {
 func TestFirstResponse(t *testing.T) {
 	t.Log("Before: ", runtime.NumGoroutine())
 	t.Log(FirstResponse())
-	//t.Log(time.Second * 1)
 	time.Sleep(time.Second * 1)
 	t.Log("After: ", runtime.NumGoroutine())
 }
