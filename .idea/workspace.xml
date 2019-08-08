@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch21/singleton/once_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,78 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch16/grouine/groutine_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="e#22#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="e#19#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch18/csp/async_service_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="6" column="1" selection-end-line="42" />
-              <folding>
-                <element signature="e#13#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch19/select/select_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#13#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#23#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="25" column="32" selection-end-line="41" />
-              <folding>
-                <element signature="e#25#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -100,13 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch21/singleton/once_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="160">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#19#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding>
+                <element signature="e#27#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" />
         <option value="$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go" />
         <option value="$PROJECT_DIR$/src/ch21/singleton/once_test.go" />
+        <option value="$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go" />
       </list>
     </option>
   </component>
@@ -211,6 +152,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch21" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch22" type="462c0819:PsiDirectoryNode" />
+              <item name="util_anyone_reply" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.once_test.go">
+  <component name="RunManager" selected="Go Test.TestFirstResponse in ch22/util_anyone_reply">
     <configuration name="TestCancel in ch20_1/cancel_by_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch20_1/cancel_by_close" />
@@ -277,6 +231,17 @@
       <pattern value="^TestCancel$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestFirstResponse in ch22/util_anyone_reply" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch22/util_anyone_reply" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch22/util_anyone_reply" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFirstResponse$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestGetSingletonObj in ch21/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch21/singleton" />
@@ -286,15 +251,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestGetSingletonObj$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="channel_close_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch20/channel_close" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="once_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -308,18 +264,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFirstResponse in ch22/util_anyone_reply" />
         <item itemvalue="Go Test.once_test.go" />
         <item itemvalue="Go Test.TestGetSingletonObj in ch21/singleton" />
         <item itemvalue="Go Test.TestCancel in ch20_2/cancel_by_context" />
         <item itemvalue="Go Test.TestCancel in ch20_1/cancel_by_close" />
-        <item itemvalue="Go Test.channel_close_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.08.08 at 09h 14m 42s.xml">
-      <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.08.08 at 09h 15m 28s.xml">
       <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -346,6 +299,9 @@
     </history-entry>
     <history-entry file="TestCancel_in_ch20_2_cancel_by_context - 2019.08.08 at 18h 31m 16s.xml">
       <configuration name="TestCancel in ch20_2/cancel_by_context" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="once_test_go - 2019.08.08 at 18h 44m 59s.xml">
+      <configuration name="once_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -685,10 +641,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch21/singleton/once_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="160">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#19#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
