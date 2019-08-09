@@ -12,3 +12,4 @@
 *.out
 
 /src/github.com/
+src/gopkg.in/
