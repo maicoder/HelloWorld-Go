@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch29/reflect/reflect_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch29/reflect/reflect_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +17,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch28/bdd/bdd_spec_test.go">
+        <entry file="file://$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
@@ -29,10 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch29/reflect/reflect_test.go">
+        <entry file="file://$PROJECT_DIR$/src/ch37/reflect/reflect_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="419">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
               <folding>
                 <element signature="e#17#49#0" expanded="true" />
               </folding>
@@ -48,6 +48,11 @@
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
   <component name="Git.Settings">
@@ -110,6 +115,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/ch28/bdd/bdd_spec_test.go" />
         <option value="$PROJECT_DIR$/src/ch29/reflect/reflect_test.go" />
+        <option value="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" />
       </list>
     </option>
   </component>
@@ -141,27 +147,20 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch28" type="462c0819:PsiDirectoryNode" />
+              <item name="ch37" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch28" type="462c0819:PsiDirectoryNode" />
-              <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch29" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch29" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="easierway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
@@ -210,18 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestInvokeByName in ch29/reflect">
-    <configuration name="BenchmarkConcatStringByAdd in ch27/benchmark" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch27/benchmark" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="ch27/benchmark" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkConcatStringByAdd$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestDeepEqual in ch37/reflect">
     <configuration name="TestBasicType in ch29/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch29/reflect" />
@@ -233,15 +221,15 @@
       <pattern value="^TestBasicType$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestConcatStringBytesBuffer in ch27/benchmark" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDeepEqual in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch27/benchmark" />
+      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch27/benchmark" />
+      <package value="ch37/reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestConcatStringBytesBuffer$" />
+      <pattern value="^TestDeepEqual$" />
       <method v="2" />
     </configuration>
     <configuration name="TestInvokeByName in ch29/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -266,26 +254,26 @@
       <pattern value="^TestSpec$" />
       <method v="2" />
     </configuration>
+    <configuration name="reflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDeepEqual in ch37/reflect" />
+        <item itemvalue="Go Test.reflect_test.go" />
         <item itemvalue="Go Test.TestInvokeByName in ch29/reflect" />
         <item itemvalue="Go Test.TestBasicType in ch29/reflect" />
         <item itemvalue="Go Test.TestSpec in ch28/bdd" />
-        <item itemvalue="Go Test.BenchmarkConcatStringByAdd in ch27/benchmark" />
-        <item itemvalue="Go Test.TestConcatStringBytesBuffer in ch27/benchmark" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFailInCode_in_ch26_unit_test - 2019.08.09 at 21h 15m 35s.xml">
-      <configuration name="TestFailInCode in ch26/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFailInCode_in_ch26_unit_test - 2019.08.09 at 21h 17m 47s.xml">
-      <configuration name="TestFailInCode in ch26/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrorInCode_in_ch26_unit_test - 2019.08.09 at 21h 17m 57s.xml">
-      <configuration name="TestErrorInCode in ch26/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestConcattringByAdd_in_ch27_benchmark - 2019.08.09 at 21h 44m 32s.xml">
       <configuration name="TestConcattringByAdd in ch27/benchmark" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -306,6 +294,15 @@
     </history-entry>
     <history-entry file="TestInvokeByName_in_ch29_reflect - 2019.08.10 at 21h 26m 45s.xml">
       <configuration name="TestInvokeByName in ch29/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeepEqual_in_ch37_reflect - 2019.08.10 at 22h 25m 53s.xml">
+      <configuration name="TestDeepEqual in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeepEqual_in_ch37_reflect - 2019.08.10 at 22h 26m 04s.xml">
+      <configuration name="TestDeepEqual in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeepEqual_in_ch37_reflect - 2019.08.10 at 22h 28m 44s.xml">
+      <configuration name="TestDeepEqual in ch37/reflect" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -616,7 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch21/cancel_by_close/cancel_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="25" column="32" selection-end-line="41" />
@@ -626,7 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch22/cancel_by_context/cancel_by_context_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
@@ -636,7 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch21/singleton/once_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch23/singleton/once_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
@@ -646,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch24/util_anyone_reply/first_response_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="21" column="21" selection-end-line="33" />
@@ -656,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch23/until_all_done/until_all_done_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch25/until_all_done/until_all_done_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
@@ -666,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch24/obj_pool/obj_pool.go">
+    <entry file="file://$PROJECT_DIR$/src/ch32/obj_pool/obj_pool.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
@@ -676,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch24/obj_pool/obj_pool_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch32/obj_pool/obj_pool_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -686,7 +683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch25/obj_cache/sync_pool_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch33/obj_cache/sync_pool_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
@@ -696,14 +693,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch26/unit_test/functions.go">
+    <entry file="file://$PROJECT_DIR$/src/ch34/unit_test/functions.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch26/unit_test/functions_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch34/unit_test/functions_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
@@ -713,7 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch27/benchmark/concat_string_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
@@ -730,7 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch28/bdd/bdd_spec_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
@@ -740,10 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch29/reflect/reflect_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch37/reflect/reflect_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="419">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
           <folding>
             <element signature="e#17#49#0" expanded="true" />
           </folding>
