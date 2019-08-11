@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch38/flexible_reflect_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch29/reflect/reflect_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch37/reflect/reflect_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="366">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#17#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch38/flexible_reflect_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+              <folding>
+                <element signature="e#26#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/ch28/bdd/bdd_spec_test.go" />
         <option value="$PROJECT_DIR$/src/ch29/reflect/reflect_test.go" />
         <option value="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" />
+        <option value="$PROJECT_DIR$/src/ch38/flexible_reflect_test.go" />
       </list>
     </option>
   </component>
@@ -147,20 +160,7 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="easierway" type="462c0819:PsiDirectoryNode" />
+              <item name="ch38" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestDeepEqual in ch37/reflect">
+  <component name="RunManager" selected="Go Test.TestFillNameAndAge in ch38">
     <configuration name="TestBasicType in ch29/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch29/reflect" />
@@ -232,6 +232,17 @@
       <pattern value="^TestDeepEqual$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestFillNameAndAge in ch38" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch38" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch38" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFillNameAndAge$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestInvokeByName in ch29/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch29/reflect" />
@@ -241,17 +252,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestInvokeByName$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSpec in ch28/bdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch28/bdd" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch28/bdd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSpec$" />
       <method v="2" />
     </configuration>
     <configuration name="reflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -265,24 +265,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFillNameAndAge in ch38" />
         <item itemvalue="Go Test.TestDeepEqual in ch37/reflect" />
         <item itemvalue="Go Test.reflect_test.go" />
         <item itemvalue="Go Test.TestInvokeByName in ch29/reflect" />
         <item itemvalue="Go Test.TestBasicType in ch29/reflect" />
-        <item itemvalue="Go Test.TestSpec in ch28/bdd" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConcattringByAdd_in_ch27_benchmark - 2019.08.09 at 21h 44m 32s.xml">
-      <configuration name="TestConcattringByAdd in ch27/benchmark" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestConcatStringBytesBuffer_in_ch27_benchmark - 2019.08.09 at 21h 48m 35s.xml">
-      <configuration name="TestConcatStringBytesBuffer in ch27/benchmark" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BenchmarkConcatStringByAdd_in_ch27_benchmark - 2019.08.09 at 21h 53m 54s.xml">
-      <configuration name="BenchmarkConcatStringByAdd in ch27/benchmark" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="BenchmarkConcatStringByAdd_in_ch27_benchmark - 2019.08.09 at 22h 27m 51s.xml">
       <configuration name="BenchmarkConcatStringByAdd in ch27/benchmark" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -303,6 +294,15 @@
     </history-entry>
     <history-entry file="TestDeepEqual_in_ch37_reflect - 2019.08.10 at 22h 28m 44s.xml">
       <configuration name="TestDeepEqual in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="reflect_test_go - 2019.08.10 at 22h 31m 28s.xml">
+      <configuration name="reflect_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeepEqual_in_ch37_reflect - 2019.08.10 at 22h 31m 31s.xml">
+      <configuration name="TestDeepEqual in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFillNameAndAge_in_ch38 - 2019.08.11 at 14h 11m 50s.xml">
+      <configuration name="TestFillNameAndAge in ch38" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -739,10 +739,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch37/reflect/reflect_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="366">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="e#17#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch38/flexible_reflect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#26#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
