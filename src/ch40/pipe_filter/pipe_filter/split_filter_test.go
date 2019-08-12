@@ -7,7 +7,7 @@ import (
 
 func TestStringSplit(t *testing.T) {
 	sf := NewSplitFilter(",")
-	resp, err := sf.Process("1, 2, 3")
+	resp, err := sf.Process("1,2,3")
 	if err != nil {
 		t.Fatal(err)
 	}
