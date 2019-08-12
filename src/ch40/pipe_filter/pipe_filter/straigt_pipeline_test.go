@@ -7,7 +7,7 @@ func TestNewStraigtPipeline(t *testing.T) {
 	converter := NewToIntFilter()
 	sum := NewSumFilter()
 	sp := NewStraigtPipeline("p1", spliter, converter, sum)
-	ret, err := sp.Process("1, 2, 3")
+	ret, err := sp.Process("1,2,3")
 	if err != nil {
 		t.Fatal(err)
 	}
