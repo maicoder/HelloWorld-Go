@@ -4,7 +4,7 @@ import "testing"
 
 func TestSumElems(t *testing.T)  {
 	sf := NewSumFilter()
-	ret, err := sf.Process([]int{1, 2, 3})
+	ret, err := sf.Process([]int{1,2,3})
 	if err != nil {
 		t.Fatal(err)
 	}
