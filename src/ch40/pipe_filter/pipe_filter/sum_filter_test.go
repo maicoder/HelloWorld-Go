@@ -2,9 +2,9 @@ package pipefilter
 
 import "testing"
 
-func TestSumElems(t *testing.T)  {
+func TestSumElems(t *testing.T) {
 	sf := NewSumFilter()
-	ret, err := sf.Process([]int{1,2,3})
+	ret, err := sf.Process([]int{1, 2, 3})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -14,9 +14,9 @@ func TestSumElems(t *testing.T)  {
 	}
 }
 
-func TestWrongInputForSumFilter(t *testing.T)  {
+func TestWrongInputForSumFilter(t *testing.T) {
 	sf := NewSumFilter()
-	_, err := sf.Process([]float32{1.1, 2.2, 3.3 })
+	_, err := sf.Process([]float32{1.1, 2.2, 3.3})
 
 	if err == nil {
 		t.Fatal("An error is xpected")
