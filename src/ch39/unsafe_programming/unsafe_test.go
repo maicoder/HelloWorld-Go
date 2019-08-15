@@ -49,7 +49,7 @@ func TestAtomic(t *testing.T) {
 	var wg sync.WaitGroup
 	writeDataFn()
 
-	for i:=0; i<10; i++ {
+	for i := 0; i < 10; i++ {
 		wg.Add(1)
 		go func() {
 			for i := 0; i < 10; i++ {
