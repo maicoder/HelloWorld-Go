@@ -4,7 +4,6 @@
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/ch43/easyjson/embedded_json_test.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch43/easyjson/struct_def.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch43/easyjson/struct_def_easyjson.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch42/json/embedded_json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch42/json/struct_def.go" afterDir="false" />
@@ -20,20 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/struct_def_easyjson.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="5453">
+              <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+              <folding>
+                <element signature="e#91#252#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/struct_def.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/embedded_json_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-299">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -292,15 +294,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNewStraigtPipeline_in_ch40_pipe_filter_pipe_filter - 2019.08.12 at 18h 39m 55s.xml">
-      <configuration name="TestNewStraigtPipeline in ch40/pipe_filter/pipe_filter" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewStraigtPipeline_in_ch40_pipe_filter_pipe_filter - 2019.08.12 at 21h 57m 18s.xml">
-      <configuration name="TestNewStraigtPipeline in ch40/pipe_filter/pipe_filter" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestNewStraigtPipeline_in_ch40_pipe_filter_pipe_filter - 2019.08.12 at 21h 58m 38s.xml">
-      <configuration name="TestNewStraigtPipeline in ch40/pipe_filter/pipe_filter" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestStringSplit_in_ch40_pipe_filter_pipe_filter - 2019.08.12 at 21h 58m 52s.xml">
       <configuration name="TestStringSplit in ch40/pipe_filter/pipe_filter" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -322,16 +315,25 @@
     <history-entry file="TestEmbededJson_in_ch42_json - 2019.08.13 at 23h 33m 32s.xml">
       <configuration name="TestEmbededJson in ch42/json" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestEmbeddedJson_in_ch43_easyjson - 2019.08.14 at 00h 03m 04s.xml">
+      <configuration name="TestEmbeddedJson in ch43/easyjson" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkEmbeddedJson_in_ch43_easyjson - 2019.08.14 at 00h 03m 11s.xml">
+      <configuration name="BenchmarkEmbeddedJson in ch43/easyjson" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkEasyJson_in_ch43_easyjson - 2019.08.14 at 00h 03m 14s.xml">
+      <configuration name="BenchmarkEasyJson in ch43/easyjson" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.20894428" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.20894428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50190115" side_tool="true" weight="0.2029304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -772,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/embedded_json_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#18#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/struct_def.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -791,8 +783,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/struct_def_easyjson.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="5453">
+          <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+          <folding>
+            <element signature="e#91#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch43/easyjson/embedded_json_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
