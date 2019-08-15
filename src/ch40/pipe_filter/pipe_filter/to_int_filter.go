@@ -8,7 +8,6 @@ import (
 var ToIntFilterWrongFormatError = errors.New("input data should be []string")
 
 type ToIntFilter struct {
-
 }
 
 func NewToIntFilter() *ToIntFilter {
