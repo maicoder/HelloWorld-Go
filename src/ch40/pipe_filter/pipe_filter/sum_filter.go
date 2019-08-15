@@ -2,10 +2,9 @@ package pipefilter
 
 import "errors"
 
-var SumFilterWrongFormatError= errors.New("input should be []int")
+var SumFilterWrongFormatError = errors.New("input should be []int")
 
 type SumFilter struct {
-
 }
 
 func NewSumFilter() *SumFilter {
