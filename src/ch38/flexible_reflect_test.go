@@ -73,7 +73,7 @@ func fillBySettings(st interface{}, settings map[string]interface{}) error {
 	return nil
 }
 
-func TestFillNameAndAge(t *testing.T)  {
+func TestFillNameAndAge(t *testing.T) {
 	settings := map[string]interface{}{"Name": "Mike", "Age": 30}
 	e := Employee{}
 	if err := fillBySettings(&e, settings); err != nil {
