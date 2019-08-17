@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/easierway/concurrent_map" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/jtolds/gls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/mailru/easyjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/assertions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/goconvey" vcs="Git" />
