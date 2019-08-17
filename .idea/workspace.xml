@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch45/http_router/http_router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch45/roa/resource_oriented_arc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +17,26 @@
     <favorites_list name="HelloWorld-Go" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch44/hello_http/hello_http.go">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch45/http_router/http_router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="e#20#49#0" expanded="true" />
+                <element signature="e#14#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch45/roa/resource_oriented_arc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" />
-        <option value="$PROJECT_DIR$/src/ch19/select/select_test.go" />
         <option value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
         <option value="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" />
         <option value="$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go" />
@@ -107,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/ch22/cancel_by_context/cancel_by_context_test.go" />
         <option value="$PROJECT_DIR$/src/ch21/cancel_by_close/cancel_test.go" />
         <option value="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" />
+        <option value="$PROJECT_DIR$/src/ch45/http_router/http_router.go" />
+        <option value="$PROJECT_DIR$/src/ch45/roa/resource_oriented_arc.go" />
       </list>
     </option>
   </component>
@@ -139,14 +153,21 @@
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch44" type="462c0819:PsiDirectoryNode" />
+              <item name="ch45" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch44" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_http" type="462c0819:PsiDirectoryNode" />
+              <item name="ch45" type="462c0819:PsiDirectoryNode" />
+              <item name="http_router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld-Go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch45" type="462c0819:PsiDirectoryNode" />
+              <item name="roa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld-Go" type="b2602c69:ProjectViewProjectNode" />
@@ -194,12 +215,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello_http.go">
+  <component name="RunManager" selected="Go Build.go build resource_oriented_arc.go">
     <configuration name="go build hello_http.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build resource_oriented_arc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch45/roa/resource_oriented_arc.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -236,24 +265,13 @@
       <pattern value="^TestEmbeddedJson$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEmbededJson in ch42/json" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch42/json" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch42/json" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestEmbededJson$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build resource_oriented_arc.go" />
         <item itemvalue="Go Build.go build hello_http.go" />
         <item itemvalue="Go Test.BenchmarkEasyJson in ch43/easyjson" />
         <item itemvalue="Go Test.BenchmarkEmbeddedJson in ch43/easyjson" />
         <item itemvalue="Go Test.TestEmbeddedJson in ch43/easyjson" />
-        <item itemvalue="Go Test.TestEmbededJson in ch42/json" />
       </list>
     </recent_temporary>
   </component>
@@ -290,10 +308,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="23" width="1407" height="877" extended-state="6" />
+    <frame x="34" y="23" width="1406" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.21465202" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.21774194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50190115" side_tool="true" weight="0.2029304" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,20 +336,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch11/interface/interface_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -717,9 +721,29 @@
     <entry file="file://$PROJECT_DIR$/src/ch44/hello_http/hello_http.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
-            <element signature="e#20#49#0" expanded="true" />
+            <element signature="e#14#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch45/http_router/http_router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch45/roa/resource_oriented_arc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
