@@ -37,11 +37,12 @@
       <replace />
     </replaceStrings>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$" />
@@ -105,12 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="23" />
-    <option name="width" value="1353" />
-    <option name="height" value="804" />
-  </component>
+  <component name="ProjectId" id="1QzVPoMVg8KdFhvtw7xvbp1UEwd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -150,6 +146,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -175,17 +172,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build resource_oriented_arc.go">
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build resource_oriented_arc.go" />
-        <item itemvalue="Go Build.go build hello_http.go" />
-        <item itemvalue="Go Test.BenchmarkEasyJson in ch43/easyjson" />
-        <item itemvalue="Go Test.BenchmarkEmbeddedJson in ch43/easyjson" />
-        <item itemvalue="Go Test.TestEmbeddedJson in ch43/easyjson" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TestHistory">
     <history-entry file="TestStringSplit_in_ch40_pipe_filter_pipe_filter - 2019.08.12 at 21h 58m 52s.xml">
