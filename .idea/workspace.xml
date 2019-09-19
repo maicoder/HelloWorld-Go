@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch7/map/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch7/map/map_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/convey/reporting/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/convey/reporting/init.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey.go" afterDir="false" />
@@ -63,7 +64,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +85,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceInit in ch6/slice_test">
+  <component name="RunManager" selected="Go Test.TestInitMap in ch7/map">
+    <configuration name="TestInitMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch7/map" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch7/map" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestInitMap$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestSliceGrowing in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
@@ -109,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestInitMap in ch7/map" />
         <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
       </list>
