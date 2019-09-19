@@ -11,6 +11,18 @@ func TestInitMap(t *testing.T) {
 	t.Logf("len m2=%d", len(m2))
 	m3 := make(map[int]int, 10)
 	t.Logf("len m3=%d", len(m3))
+	var m4 map[int]string
+	var m5 = map[int]string{}
+	//m4[1] = "2"
+	t.Log(m4, m5)
+	t.Logf("%p, %p", m4, m5)
+	t.Logf("%T, %T", m4, m5)
+	if m4 == nil {
+		t.Log("m4 == nil")
+	}
+	if m5 == nil {
+		t.Log("m5 == nil")
+	}
 }
 
 func TestAccessNotExistingKey(t *testing.T) {
