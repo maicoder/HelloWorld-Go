@@ -6,7 +6,6 @@ import (
 )
 
 type Pet struct {
-
 }
 
 func (p *Pet) Speak() {
@@ -37,7 +36,7 @@ func (d *Dog) Speak() {
 	fmt.Print("Wang!")
 }
 
-func TestDog(t *testing.T)  {
+func TestDog(t *testing.T) {
 	dog := new(Dog)
 	dog.SpeakTo("Jack")
 }
