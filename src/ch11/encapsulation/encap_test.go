@@ -35,7 +35,7 @@ func TestCreateEmployeeObj(t *testing.T) {
 	t.Logf("e2 is %T", e2)
 }
 
-func TestStructOperations(t *testing.T)  {
+func TestStructOperations(t *testing.T) {
 	e := Employee{"0", "Bob", 20}
 	fmt.Printf("Address is %x", unsafe.Pointer(&e.Name))
 	t.Log(e.String())
