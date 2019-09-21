@@ -31,7 +31,7 @@ func TestString(t *testing.T) {
 
 func TestStringToRune(t *testing.T) {
 	s := "中华人民共和国"
-	for _, c := range s{
+	for _, c := range s {
 		t.Logf("%[1]c %[1]d", c)
 	}
 }
