@@ -24,5 +24,5 @@ func slowFun(op int) int {
 
 func TestFn(t *testing.T) {
 	tsSF := timeSpent(slowFun)
-	t.Log(tsSF(10 ))
+	t.Log(tsSF(10))
 }
