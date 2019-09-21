@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func TestGroutine(t *testing.T)  {
+func TestGroutine(t *testing.T) {
 	for i := 0; i < 10; i++ {
 		go func(i int) {
 			fmt.Println(i)
@@ -14,4 +14,3 @@ func TestGroutine(t *testing.T)  {
 	}
 	time.Sleep(time.Microsecond * 50)
 }
- 
