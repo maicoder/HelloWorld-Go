@@ -16,7 +16,7 @@ func DoSomething(p interface{}) {
 	//}
 	//fmt.Println("Unknown Type")
 
-	switch v:=p.(type) {
+	switch v := p.(type) {
 	case int:
 		fmt.Println("integer", v)
 	case string:
