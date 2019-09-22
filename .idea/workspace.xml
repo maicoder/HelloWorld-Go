@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch1/main/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/main/hello_world.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11/encapsulation/encap_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch12/extension/extension_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12/extension/extension_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch16/grouine/groutine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch16/grouine/groutine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/fib/fib_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/fib/fib_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/test/first_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/test/first_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch46/tools/http/fb_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch46/tools/http/fb_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch47/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch47/structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch47/structs_easyjson.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch47/structs_easyjson.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch48/lock/lock_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch48/lock/lock_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch48/maps/concurrent_map_benchmark_adapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch48/maps/concurrent_map_benchmark_adapter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch48/maps/rw_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch48/maps/rw_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch48/maps/sync_map_benchmark_adapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch48/maps/sync_map_benchmark_adapter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch49/gc_friendly/auto_growing/auto_growing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch49/gc_friendly/auto_growing/auto_growing_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch49/gc_friendly/passing_ref/pass_array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch49/gc_friendly/passing_ref/pass_array_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch9/string/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9/string/string_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/convey/reporting/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/convey/reporting/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/examples/bowling_game.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/examples/bowling_game.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey_1_8.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey_1_8.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey_1_9.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/goconvey_1_9.go" afterDir="false" />
@@ -12,6 +33,11 @@
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/web/server/system/shell.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/web/server/system/shell.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/web/server/system/shell_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/smartystreets/goconvey/web/server/system/shell_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/stretchr/testify/assert/assertions.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stretchr/testify/assert/assertions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stretchr/testify/suite/suite.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stretchr/testify/suite/suite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stretchr/testify/suite/suite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stretchr/testify/suite/suite_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/readerc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/readerc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/resolve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/sorter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/sorter.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
