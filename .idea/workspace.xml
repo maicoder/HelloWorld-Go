@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch9/string/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9/string/string_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
@@ -93,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestInitMap in ch7/map">
+  <component name="RunManager" selected="Go Test.TestStrings in ch9/string">
     <configuration name="TestInitMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch7/map" />
@@ -127,8 +128,20 @@
       <pattern value="^TestSliceInit$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestStrings in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch9/string" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch9/string" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStrings$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStrings in ch9/string" />
         <item itemvalue="Go Test.TestInitMap in ch7/map" />
         <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
         <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
