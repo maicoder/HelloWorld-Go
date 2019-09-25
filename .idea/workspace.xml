@@ -94,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestStrings in ch9/string">
+  <component name="RunManager" selected="Go Test.TestStrconv in ch9/string">
     <configuration name="TestInitMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch7/map" />
@@ -128,6 +128,17 @@
       <pattern value="^TestSliceInit$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestStrconv in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch9/string" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch9/string" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStrconv$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestStrings in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch9/string" />
@@ -141,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStrconv in ch9/string" />
         <item itemvalue="Go Test.TestStrings in ch9/string" />
         <item itemvalue="Go Test.TestInitMap in ch7/map" />
         <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
