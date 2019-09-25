@@ -1,6 +1,8 @@
 package string_test
 
 import (
+	"fmt"
+	"strings"
 	"testing"
 	"unsafe"
 )
@@ -27,6 +29,12 @@ func TestString(t *testing.T) {
 
 	// Unicode ：code point
 	// utf8
+}
+
+func TestStrings(t *testing.T) {
+	s1 := "helloworld"
+	s2 := strings.Replace(s1, "l", "@", -1)
+	fmt.Println(s2)
 }
 
 func TestStringToRune(t *testing.T) {
