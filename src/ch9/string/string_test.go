@@ -2,6 +2,7 @@ package string_test
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 	"testing"
 	"unsafe"
@@ -35,6 +36,19 @@ func TestStrings(t *testing.T) {
 	s1 := "helloworld"
 	s2 := strings.Replace(s1, "l", "@", -1)
 	fmt.Println(s2)
+}
+
+func TestStrconv(t *testing.T) {
+	s1 := "true"
+	b1, err := strconv.ParseBool(s1)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Printf("%T, %t\n", b1, b1)
+
+	ss1 := strconv.FormatBool(b1)
+	fmt.Printf("%T, %s\n", ss1, ss1)
 }
 
 func TestStringToRune(t *testing.T) {
