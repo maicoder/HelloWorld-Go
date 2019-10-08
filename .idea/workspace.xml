@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch45/http_router/http_router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch45/http_router/http_router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
@@ -92,7 +94,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestStrconv in ch9/string">
+  <component name="RunManager" selected="Go Build.go build ch45/http_router">
+    <configuration name="go build ch45/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/ch45/http_router/http_router.go" />
+      <package value="ch45/http_router" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEmptyInterfaceAssertion in ch13/empty_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/src/ch13/empty_interface" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch13/empty_interface" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestEmptyInterfaceAssertion$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestInitMap in ch7/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/src/ch7/map" />
@@ -102,28 +124,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestInitMap$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSliceGrowing in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch6/slice_test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSliceGrowing$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSliceInit in ch6/slice_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch6/slice_test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSliceInit$" />
       <method v="2" />
     </configuration>
     <configuration name="TestStrconv in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ch45/http_router" />
+        <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
         <item itemvalue="Go Test.TestStrconv in ch9/string" />
         <item itemvalue="Go Test.TestStrings in ch9/string" />
         <item itemvalue="Go Test.TestInitMap in ch7/map" />
-        <item itemvalue="Go Test.TestSliceInit in ch6/slice_test" />
-        <item itemvalue="Go Test.TestSliceGrowing in ch6/slice_test" />
       </list>
     </recent_temporary>
   </component>
