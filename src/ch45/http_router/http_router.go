@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-type myHandler struct {}
+type myHandler struct{}
 
 func (h *myHandler) ServeHTTP(w http.ResponseWriter, _ *http.Request) {
 	io.WriteString(w, "HelloWorld!\n")
@@ -24,13 +24,13 @@ func Hello(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 
 func main() {
 	/*
-	router := httprouter.New()
-	router.GET("/", Index)
-	router.GET("/hello/:name", Hello)
+		router := httprouter.New()
+		router.GET("/", Index)
+		router.GET("/hello/:name", Hello)
 
-	log.Fatal(http.ListenAndServe(":8888", router))
+		log.Fatal(http.ListenAndServe(":8888", router))
 
-	 */
+	*/
 
 	mux := http.NewServeMux()
 
