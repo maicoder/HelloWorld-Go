@@ -31,10 +31,12 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8888", router))
 
 	 */
+
 	mux := http.NewServeMux()
 
 	h := new(myHandler)
 	mux.Handle("/foo", h)
+
 	log.Println("Listening...")
 	http.ListenAndServe(":3000", mux)
 }
