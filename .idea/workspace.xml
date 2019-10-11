@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ch45/http_router">
+  <component name="RunManager" selected="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface">
     <configuration name="go build ch45/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -148,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build ch45/http_router" />
         <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
+        <item itemvalue="Go Build.go build ch45/http_router" />
         <item itemvalue="Go Test.TestStrconv in ch9/string" />
         <item itemvalue="Go Test.TestStrings in ch9/string" />
         <item itemvalue="Go Test.TestInitMap in ch7/map" />
