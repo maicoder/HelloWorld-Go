@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chGinVue/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chGinVue/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chGinVue/src/vue-test/src/components/ApiData.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chGinVue/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chGinVue/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chGinVue/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
@@ -62,7 +64,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -75,10 +77,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chGinVue/src/vue-test/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ch9/string_fun" />
       <recent name="$PROJECT_DIR$/src/ch1/main" />
