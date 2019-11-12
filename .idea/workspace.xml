@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch0x/ch0x01/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
@@ -32,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -56,7 +58,7 @@
   <component name="ProjectId" id="1QzVPoMVg8KdFhvtw7xvbp1UEwd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -94,7 +96,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build chGinVue">
+  <component name="RunManager" selected="Go Build.go build ch0x/ch0x01/main">
+    <configuration name="go build ch0x/ch0x01/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld-Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/ch0x/ch0x01/main/main.go" />
+      <package value="ch0x/ch0x01/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build ch45/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -135,24 +146,13 @@
       <pattern value="^TestStrconv$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStrings in ch9/string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld-Go" />
-      <working_directory value="$PROJECT_DIR$/src/ch9/string" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch9/string" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStrings$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ch0x/ch0x01/main" />
         <item itemvalue="Go Build.go build chGinVue" />
         <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
         <item itemvalue="Go Build.go build ch45/http_router" />
         <item itemvalue="Go Test.TestStrconv in ch9/string" />
-        <item itemvalue="Go Test.TestStrings in ch9/string" />
       </list>
     </recent_temporary>
   </component>
