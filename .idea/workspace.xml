@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch0x/ch0x02/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch0x/ch0x02/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/tests/nested_easy.go" afterDir="false" />
@@ -90,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ch0x/ch0x02/main">
+  <component name="RunManager" selected="Go Build.go build ch0x/ch0x03/main">
     <configuration name="go build ch0x/ch0x01/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -109,12 +108,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ch45/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ch0x/ch0x03/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/ch45/http_router/http_router.go" />
-      <package value="ch45/http_router" />
+      <filePath value="$PROJECT_DIR$/src/ch0x/ch0x03/main/main.go" />
+      <package value="ch0x/ch0x03/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ch0x/ch0x03/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x02/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x01/main" />
         <item itemvalue="Go Build.go build chGinVue" />
         <item itemvalue="Go Test.TestEmptyInterfaceAssertion in ch13/empty_interface" />
-        <item itemvalue="Go Build.go build ch45/http_router" />
       </list>
     </recent_temporary>
   </component>
