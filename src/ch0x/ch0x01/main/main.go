@@ -88,6 +88,13 @@ func main() {
 	fmt.Println("Her weight is ", jane.weight)
 	fmt.Println("Her speciality is ", jane.speciality)
 
-	
+	jane.Skills = []string{"anatomy"}
+	fmt.Println("Her skill is ", jane.Skills)
+	fmt.Println("she acquired two new ones")
+	jane.Skills = append(jane.Skills, "physics", "golang")
+	fmt.Println("Her skills now are ", jane.Skills)
+
+	jane.int = 3
+	fmt.Println("Her preferred number is ", jane.int)
 
 }
