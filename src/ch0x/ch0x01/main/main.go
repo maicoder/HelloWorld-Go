@@ -14,6 +14,7 @@ func add2(a *int) int {
 }
 */
 
+/*
 type Human struct {
 	name string
 	age int
@@ -27,6 +28,19 @@ type Student struct {
 	Skills  // 匿名字段，自定义的类型string slice
 	int  // 内置类型作为匿名字段
 	speciality string
+}
+ */
+
+type Human struct {
+	name string
+	age int
+	phone string
+}
+
+type Employee struct {
+	Human  //匿名字段
+	speciality string
+	phone string
 }
 
 func main() {
@@ -76,6 +90,7 @@ func main() {
 	mark.Human.age -= 1
 	 */
 
+	/*
 	jane := Student{
 		Human:      Human{"Jane", 35, 100},
 		Skills:     nil,
@@ -96,5 +111,13 @@ func main() {
 
 	jane.int = 3
 	fmt.Println("Her preferred number is ", jane.int)
+	 */
 
+	Bob := Employee{
+		Human:      Human{"Bob", 34, "111-222-333"},
+		speciality: "Desigher",
+		phone:      "333-555-666",
+	}
+	fmt.Println("Bob's work phone is ", Bob.phone)
+	fmt.Println("Bob's personal phone is ", Bob.Human.phone)
 }
