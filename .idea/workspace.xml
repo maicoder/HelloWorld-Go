@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25abcfcc-0fc7-44c8-aa21-c9bf348a3d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch0x/ch0x04/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch0x/ch0x05/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/julienschmidt/httprouter/tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mailru/easyjson/jlexer/lexer_test.go" afterDir="false" />
@@ -91,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ch0x/ch0x04/main">
+  <component name="RunManager" selected="Go Build.go build ch0x/ch0x05/main">
     <configuration name="go build ch0x/ch0x01/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -128,22 +128,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build chGinVue" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ch0x/ch0x05/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld-Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/chGinVue/main.go" />
-      <package value="chGinVue" />
+      <filePath value="$PROJECT_DIR$/src/ch0x/ch0x05/main/main.go" />
+      <package value="ch0x/ch0x05/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ch0x/ch0x05/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x04/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x03/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x02/main" />
         <item itemvalue="Go Build.go build ch0x/ch0x01/main" />
-        <item itemvalue="Go Build.go build chGinVue" />
       </list>
     </recent_temporary>
   </component>
