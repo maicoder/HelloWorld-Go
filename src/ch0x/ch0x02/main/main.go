@@ -1,8 +1,10 @@
+// method
+
 package main
 
 import "fmt"
 
-const(
+const (
 	WHITE = iota
 	BLACK
 	BLUE
@@ -52,17 +54,17 @@ func (c Color) String() string {
 
 func main() {
 	boxes := BoxList{
-		Box{4,4,4,RED},
-		Box{10,10,1,YELLOW},
-		Box{1,1,20,BLACK},
-		Box{10,10,1,BLUE},
-		Box{10, 30,1, WHITE},
-		Box{20,20,20,YELLOW},
+		Box{4, 4, 4, RED},
+		Box{10, 10, 1, YELLOW},
+		Box{1, 1, 20, BLACK},
+		Box{10, 10, 1, BLUE},
+		Box{10, 30, 1, WHITE},
+		Box{20, 20, 20, YELLOW},
 	}
 
 	fmt.Printf("we have %d boxes in our set\n", len(boxes))
 	fmt.Println("the volume of the first one is", boxes[0].Volume(), "cm³")
-	fmt.Println("the color of the last one is",boxes[len(boxes)-1].color.String())
+	fmt.Println("the color of the last one is", boxes[len(boxes)-1].color.String())
 	fmt.Println("the biggest one is", boxes.BiggestColor().String())
 
 	fmt.Println("Let's paint them all black")
